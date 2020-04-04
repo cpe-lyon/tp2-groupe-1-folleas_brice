@@ -1,0 +1,8 @@
+Package: origine-commande
+Version: 0.1
+Maintainer: Brice Folléas
+Architecture: all
+Description: Cherche l'origine d'une commande
+Section: utils
+Priority: optionnal
+

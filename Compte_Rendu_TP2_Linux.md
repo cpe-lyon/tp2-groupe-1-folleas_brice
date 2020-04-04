@@ -1,3 +1,5 @@
+### CPE Lyon - 3 IRC - FOLLÉAS Brice
+
 # Compte Rendu TP 2 - Admin Linux
 
 ## Exercice 1 - Variables d'environnement - Bash
@@ -66,15 +68,16 @@ La commande `unset` va totalement supprimer la variable et donc ne plus prendre 
 
 Ecrivez un script qui prend un paramètre et utilise la fonction suivante pour vérifier que ce paramètre est un nombre réel :
 
-> function is_number()
-{
-&nbsp; re='^[+-]?[0-9]+([.][0-9]+)?$'
-&nbsp; if ! [[ $1 =~ $re ]] ; then
-&nbsp;&nbsp; return 1
-&nbsp; else
-&nbsp;&nbsp; return 0
-&nbsp; fi
+``` 
+function is_number() {
+    re='^[+-]?[0-9]+([.][0-9]+)?$'
+    if ! [[ $1 =~ $re ]] ; then
+        return 1
+    else
+        return 0
+    fi
 }
+```
 
 Il affichera un message d’erreur dans le cas contraire.
 
@@ -112,5 +115,3 @@ Il affichera un message d’erreur dans le cas contraire.
 
 >Work in progress...
 
-
-CPE Lyon - 3 IRC - FOLLÉAS Brice
